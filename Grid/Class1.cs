@@ -13,9 +13,4 @@
             this.y = y; 
         }
     }
-
-    public class DjikstraAlgorithm
-    {
-
-    }
 }
