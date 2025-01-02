@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", "{328377D8-FE49-4761-BF2F-D1028FA2E19A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartasianPlane", "Grid\CartasianPlane.csproj", "{328377D8-FE49-4761-BF2F-D1028FA2E19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C98E7CBD-CC78-4F77-95F8-7C10DDE55201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{1C7957A6-1308-4762-88AE-2C0D73413570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{328377D8-FE49-4761-BF2F-D1028FA2E19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{328377D8-FE49-4761-BF2F-D1028FA2E19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{328377D8-FE49-4761-BF2F-D1028FA2E19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98E7CBD-CC78-4F77-95F8-7C10DDE55201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98E7CBD-CC78-4F77-95F8-7C10DDE55201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98E7CBD-CC78-4F77-95F8-7C10DDE55201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98E7CBD-CC78-4F77-95F8-7C10DDE55201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7957A6-1308-4762-88AE-2C0D73413570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7957A6-1308-4762-88AE-2C0D73413570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7957A6-1308-4762-88AE-2C0D73413570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7957A6-1308-4762-88AE-2C0D73413570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48C2666E-F015-46D7-9577-68861241E655}
 	EndGlobalSection
 EndGlobal
